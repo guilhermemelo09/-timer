@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(118, 157, 118, 0.529);
+        }
+        #container{
+            display:none;
+            width:500px;
+            height:300px;
+            background-color:white;
+            border-radius:10px;
+            margin:auto;
+        }
+        .relogio{
+            font-size: 3em;;
+        }
+    </style>
+</head>
+<body>
+    <section id='container'>
+        <h1>Calcule o maior número </h1>
+        <div class='paragrafos'>
+            <label for='input-text'>Insira o primeiro número</label>
+            <input type="number" name="input-text" id="input-text">
+            <br>
+            <label for='input-text2'>Insira o segundo número</label>
+            <input type="number" name="input-text2" id="input-text2">
+            <br>
+            <button type="submit" id="btn-calcular">Calcular</button>
+            <p class="paragrafo-resultado" style='display:block'></p>
+        </div>
+    </section>
+    <section id='container2'>
+        <h1>Meu Timer</h1>
+        <p class="relogio">00:00:00</p>
+        <p>
+            <button class="iniciar">Iniciar</button>
+            <button class='pausar'>Pausar</button>
+            <button class='zerar'>Zerar</button>
+        </p>
+    </section>
+    <script src="/udemy.js"></script>
+</body>
+</html>
